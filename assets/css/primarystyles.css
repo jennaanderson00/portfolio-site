@@ -104,6 +104,11 @@ nav ul li a {
     justify-content: space-around;
     font-family: 'Padauk', sans-serif;
     font-size: 20px;
+    color: var(--secondary-color);
+}
+
+.project-headers {
+    font-family: 'VT323', monospace;
 }
 
 .project-2,
@@ -112,6 +117,7 @@ nav ul li a {
 .project-5 {
     border: 4px solid var(--primary-color);
     margin: 20px 0;
+    background-color: var(--primary-color);
 }
 
 .project-2,
