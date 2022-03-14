@@ -5,6 +5,7 @@
     --fourth-color: #7f7f7f;
 }
 
+/*header styles*/
 .header-nav {
     font-family: 'VT323', monospace;
 }
@@ -38,6 +39,7 @@ header {
     font-size: 50px;
 }
 
+/*nav styles*/
 nav ul {
     display: flex;
     flex-wrap: wrap;
@@ -52,6 +54,7 @@ nav ul li a {
     text-decoration: none;
 }
 
+/*about me styles*/
 .heading {
     display: flex;
     flex-wrap: wrap;
@@ -85,6 +88,7 @@ nav ul li a {
     color: var(--fourth-color);
 }
 
+/*project styles*/
 .project-1 {
     background-image: url("../images/projectimg6.jpg");
     background-size: cover;
@@ -150,4 +154,26 @@ nav ul li a {
     margin-right: 20px;
     display: flex;
     align-items: center;
+}
+
+/*contact styles*/
+.contact {
+    font-family: 'Padauk', sans-serif;
+}
+
+#contact-header {
+    display: flex;
+    justify-content: center;
+    font-family: 'VT323', monospace;
+    font-size: 35px;
+}
+
+.contact-info {
+    text-align: center;
+    font-size: 25px;
+}
+
+#phone a,
+#email a {
+    color: var(--tertiary-color);
 }
