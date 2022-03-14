@@ -3,11 +3,14 @@
     --secondary-color: #ffffff;
     --tertiary-color: #4c4c4c;
     --fourth-color: #7f7f7f;
+    --heading-font: 'VT323', monospace;
+    --content-font: 'Padauk', sans-serif;
+    --header-size: 35px;
 }
 
 /*header styles*/
 .header-nav {
-    font-family: 'VT323', monospace;
+    font-family: var(--heading-font);
     background-color: var(--secondary-color);
     position: sticky;
     top: 0;
@@ -62,8 +65,8 @@ nav ul li a {
 .heading {
     display: flex;
     flex-wrap: wrap;
-    font-size: 35px;
-    font-family: 'VT323', monospace;
+    font-size: var(--header-size);
+    font-family: var(--heading-font);
     color: var(--primary-color);
     align-items: center;
     justify-content: center;
@@ -80,7 +83,7 @@ nav ul li a {
     justify-content: center;
     color: var(--tertiary-color);
     font-size: 25px;
-    font-family: 'Padauk', sans-serif;
+    font-family: var(--content-font);
 }
 
 .about-me p,
@@ -99,10 +102,15 @@ nav ul li a {
     background-position: 70%;
     height: 500px;
     font-size: 30px;
-    font-family: 'Padauk', sans-serif;
+    font-family: var(--content-font);
     color: var(--secondary-color);
     display: flex;
     justify-content: center;
+}
+
+#project1header {
+    font-family: var(--heading-font);
+    font-size: var(--header-size);
 }
 
 .additional-projects,
@@ -110,13 +118,13 @@ nav ul li a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    font-family: 'Padauk', sans-serif;
+    font-family: var(--content-font);
     font-size: 20px;
     color: var(--secondary-color);
 }
 
 .project-headers {
-    font-family: 'VT323', monospace;
+    font-family: var(--heading-font);
 }
 
 .project-2,
@@ -162,14 +170,14 @@ nav ul li a {
 
 /*contact styles*/
 .contact {
-    font-family: 'Padauk', sans-serif;
+    font-family: var(--content-font);
 }
 
 #contact-header {
     display: flex;
     justify-content: center;
-    font-family: 'VT323', monospace;
-    font-size: 35px;
+    font-family: var(--heading-font);
+    font-size: var(--header-size);
 }
 
 .contact-info {
