@@ -6,26 +6,34 @@
 }
 
 .header-nav {
-    border: 4px solid var(--primary-color);
     font-family: 'VT323', monospace;
+}
+
+header {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    border: 4px solid var(--primary-color);
+}
+
+.icon-1 {
+    margin: 30px 15px;
 }
 
 .title {
     background-color: var(--primary-color);
     color: var(--secondary-color);
-    height: 65px;
+    height: 150px;
+    width: fit-content;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    padding: 10px;
-}
-
-.icon-1 {
-    margin: 15px;
+    align-items: flex-end;
+    padding: 10px 0 0 0;
 }
 
 .name-and-alias {
     align-items: space-around;
     font-size: xx-large;
 }
+
