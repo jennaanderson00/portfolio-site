@@ -18,7 +18,8 @@ header {
 }
 
 .icon-1 {
-    margin: 30px 15px;
+    margin-left: 15px;
+    margin-right: 5px;
 }
 
 .title {
@@ -28,13 +29,13 @@ header {
     width: fit-content;
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-end;
-    padding: 10px 0 0 0;
+    align-items: center;
+    padding-top: 10px;
 }
 
 .name-and-alias {
     align-items: space-around;
-    font-size: xx-large;
+    font-size: 50px;
 }
 
 nav ul {
@@ -43,10 +44,42 @@ nav ul {
     justify-content: space-between;
     margin: 10px 20px 10px 0px;
     list-style: none;
-    font-size: x-large;
+    font-size: 30px;
 }
 
 nav ul li a {
-    color: var(--primary-color);
+    color: var(--tertiary-color);
     text-decoration: none;
+}
+
+.heading {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 35px;
+    font-family: 'VT323', monospace;
+    color: var(--primary-color);
+    align-items: center;
+    justify-content: center;
+}
+
+.heading i {
+    margin-left: 15px;
+}
+
+.about-me {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    color: var(--tertiary-color);
+    font-size: 25px;
+    font-family: 'Padauk', sans-serif;
+}
+
+.about-me p {
+    text-align: center;
+}
+
+#abtmep2 {
+    color: var(--fourth-color);
 }
