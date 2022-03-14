@@ -76,10 +76,23 @@ nav ul li a {
     font-family: 'Padauk', sans-serif;
 }
 
-.about-me p {
+.about-me p,
+.project-1 section {
     text-align: center;
 }
 
 #abtmep2 {
     color: var(--fourth-color);
+}
+
+.project-1 {
+    background-image: url("../images/projectimg6.jpg");
+    background-size: cover;
+    background-position: 70%;
+    height: 500px;
+    font-size: 30px;
+    font-family: 'Padauk', sans-serif;
+    color: var(--secondary-color);
+    display: flex;
+    justify-content: center;
 }
