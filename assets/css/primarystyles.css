@@ -171,6 +171,7 @@ nav ul li a {
 /*contact styles*/
 .contact {
     font-family: var(--content-font);
+    margin-bottom: 20px;
 }
 
 #contact-header {
@@ -188,4 +189,34 @@ nav ul li a {
 #phone a,
 #email a {
     color: var(--tertiary-color);
+}
+
+/*footer styles*/
+footer {
+    background-color: var(--primary-color);
+    font-family: var(--heading-font);
+    font-size: 25px;
+    color: var(--secondary-color);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.contact-links a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-size: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.social-links {
+    display: flex;
+    align-items: flex-end;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: var(--secondary-color);
 }
