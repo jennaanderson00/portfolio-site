@@ -95,22 +95,55 @@ nav ul li a {
     color: var(--fourth-color);
 }
 
-/*project styles*/
-.project-1 {
-    background-image: url("../images/projectimg6.jpg");
-    background-size: cover;
-    background-position: 70%;
-    height: 500px;
-    font-size: 30px;
-    font-family: var(--content-font);
-    color: var(--secondary-color);
+/*project 1 styles*/
+.project-1, #project1img {
     display: flex;
     justify-content: center;
+}
+
+#project1desc {
+    font-size: 30px;
+    font-family: var(--content-font);
+    color: var(--primary-color);
 }
 
 #project1header {
     font-family: var(--heading-font);
     font-size: var(--header-size);
+    color: var(--primary-color);
+}
+
+#btn1Div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+#project1Button {
+    display: flex;
+    justify-content: center;
+    font-family: var(--heading-font);
+    font-size: 20px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+#project1Button:hover {
+    background-color: var(--secondary-color);
+    color: var(--tertiary-color);
+}
+
+/*project styles*/
+#project2Button, #project3Button, #project4Button, #project5Button {
+    font-family: var(--heading-font);
+    font-size: 20px;
+    color: var(--secondary-color);
+    background-color: var(--fourth-color);
+}
+
+#project2Button:hover, #project3Button:hover, #project4Button:hover, #project5Button:hover {
+    color: var(--secondary-color);
+    background-color: var(--tertiary-color);
 }
 
 .additional-projects,
