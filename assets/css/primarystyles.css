@@ -253,3 +253,10 @@ footer {
     text-decoration: none;
     color: var(--secondary-color);
 }
+
+/*mobile media query*/
+@media screen and (max-width: 802px) {
+    #mothImg2 {
+        display: none;
+    }
+}
