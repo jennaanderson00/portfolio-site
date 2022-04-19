@@ -1,6 +1,6 @@
 $("#project1Button").on("click", openBW);
 $("#project2Button").on("click", openCR);
-$("#project5Button").on("click", openWhereTo);
+$("#project4Button").on("click", openWhereTo);
 
 function openBW() {
     window.open("https://jennaanderson00.github.io/weather-dashboard/");
