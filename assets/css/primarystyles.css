@@ -96,6 +96,12 @@ nav ul li a {
 }
 
 /*project styles*/
+#projectDivTitle {
+    font-family: var(--heading-font);
+    font-size: var(--header-size);
+    text-align: center;
+}
+
 #project1Btn, #groupProject2Btn, #project2Button, #project3Button, #project4Button, #project5Button {
     font-family: var(--heading-font);
     font-size: 20px;
@@ -195,17 +201,25 @@ footer {
     color: var(--secondary-color);
     font-size: 20px;
     display: flex;
+    align-items: center;
     flex-wrap: nowrap;
 }
 
 .social-links {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .social-links a {
     text-decoration: none;
     color: var(--secondary-color);
+}
+
+#footerNote {
+    display: flex;
+    align-items: center;
+    font-family: var(--heading-font);
+    font-size: 25px;
 }
 
 /*mobile media query*/
